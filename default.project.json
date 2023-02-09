@@ -24,6 +24,11 @@
             "Common": {
                 "$className": "Folder",
                 "$path": "src/ReplicatedStorage/Common"
+            },
+
+            "Packages": {
+                "$className": "Folder",
+                "$path": "Packages"
             }
         },
 
