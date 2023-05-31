@@ -7,9 +7,9 @@
         "ServerScriptService": {
             "$className": "ServerScriptService",
             
-            "Source": {
+            "Server": {
                 "$className": "Folder",
-                "$path": "src/ServerScriptService"
+                "$path": "src/Server"
             }
         },
 
@@ -18,12 +18,12 @@
 
             "Client": {
                 "$className": "Folder",
-                "$path": "src/ReplicatedStorage/Client"
+                "$path": "src/Client"
             },
 
             "Common": {
                 "$className": "Folder",
-                "$path": "src/ReplicatedStorage/Common"
+                "$path": "src/Common"
             },
 
             "Packages": {
@@ -38,18 +38,9 @@
             "StarterPlayerScripts": {
                 "$className": "StarterPlayerScripts",
 
-                "Source": {
+                "Client": {
                     "$className": "Folder",
-                    "$path": "src/StarterPlayer/StarterPlayerScripts"
-                }
-            },
-
-            "StarterCharacterScripts": {
-                "$className": "StarterCharacterScripts",
-
-                "Source": {
-                    "$className": "Folder",
-                    "$path": "src/StarterPlayer/StarterCharacterScripts"
+                    "$path": "src/Client"
                 }
             }
         }
