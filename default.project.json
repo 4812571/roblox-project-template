@@ -16,11 +16,6 @@
         "ReplicatedStorage": {
             "$className": "ReplicatedStorage",
 
-            "Client": {
-                "$className": "Folder",
-                "$path": "src/Client"
-            },
-
             "Common": {
                 "$className": "Folder",
                 "$path": "src/Common"
