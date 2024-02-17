@@ -1,5 +1,6 @@
 {
     "name": "Project",
+    "emitLegacyScripts": false,
 
     "tree": {
         "$className": "DataModel",
@@ -16,6 +17,11 @@
         "ReplicatedStorage": {
             "$className": "ReplicatedStorage",
 
+            "Client": {
+                "$className": "Folder",
+                "$path": "src/Client"
+            },
+
             "Common": {
                 "$className": "Folder",
                 "$path": "src/Common"
@@ -24,19 +30,6 @@
             "Packages": {
                 "$className": "Folder",
                 "$path": "Packages"
-            }
-        },
-
-        "StarterPlayer": {
-            "$className": "StarterPlayer",
-
-            "StarterPlayerScripts": {
-                "$className": "StarterPlayerScripts",
-
-                "Client": {
-                    "$className": "Folder",
-                    "$path": "src/Client"
-                }
             }
         }
     }
